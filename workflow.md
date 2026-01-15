@@ -11,6 +11,16 @@
 
 ## Bash
 
+Clone repo 
 ```bash
 ihub op clone <reponame>
+```
+Clone mcprepo 
+```bash
+ihub op clone <mcpreponame> --mcp true
+```
+
+Clone prompt data
+```bash
+ihub op clone <projectname> --prompt true
 ```
